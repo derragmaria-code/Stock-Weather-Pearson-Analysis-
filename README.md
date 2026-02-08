@@ -1,6 +1,5 @@
 # Comparative Analysis: The "Hydraulic Engine" of Emerging Markets
 
-**Author:** Maria Derrag  
 **GitHub:** [Mariyyyaa ella](https://github.com/Mariyyyaa)  
 **Subject:** Cross-Regional Analysis of Weather-Driven Market Volatility (Morocco vs. Ukraine)  
 **Date:** February 8, 2026  
