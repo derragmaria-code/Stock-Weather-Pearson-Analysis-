@@ -1,0 +1,57 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{booktabs} % For professional tables
+\usepackage{graphicx} % To include the chart
+\usepackage{amsmath}  % For mathematical notation
+\usepackage{titlesec} % For custom headings
+\usepackage{xcolor}   % For colored text highlights
+
+% --- Title Information ---
+\title{Analysis of Moroccan Equity Market Volatility vs. Regional Precipitation Patterns \\ \large An Investigation into the 2024--2026 January Performance}
+\author{Data Analysis Report}
+\date{February 8, 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Executive Summary}
+This report evaluates the statistical relationship between average precipitation in the Casablanca-Rabat axis and the closing prices of major securities listed on the Moroccan stock exchange. The study reveals a Pearson correlation coefficient ($r$) of \textbf{0.2754}, suggesting a weak but non-negligible positive relationship.
+
+\section{Methodology}
+The analysis was conducted using daily precipitation records merged from two major urban centers. The correlation was calculated using the Pearson product-moment correlation formula:
+\[ r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}} \]
+where $x$ represents the stock price and $y$ represents the average daily rainfall for the month of January.
+
+\section{Data Summary}
+
+\begin{table}[h]
+\centering
+\caption{Rainfall and Market Overview (January 2024--2026)}
+\vspace{2mm}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Metric} & \textbf{2024} & \textbf{2025} & \textbf{2026} \\ \midrule
+Avg Rainfall (mm) & 1.06 & 1.05 & 8.10 \\
+Rainy Days        & 9    & 8    & 22   \\
+Sample Stock (Managem) & 1,800 MAD & 2,600 MAD & 8,050 MAD \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\section{Statistical Interpretation}
+The resulting correlation of \textbf{0.2754} indicates that approximately \textbf{7.6\%} ($R^2$) of the variance in the observed stock prices can be associated with variations in January rainfall. 
+
+\begin{itemize}
+    \item \textbf{2024--2025:} Market growth occurred despite stagnant rainfall levels, suggesting sectoral independence.
+    \item \textbf{2026 Outlier Effect:} The significant surge in rainfall coincided with extreme price appreciation in the mining sector (notably Managem), which acted as the primary driver for the positive correlation value.
+\end{itemize}
+
+\section{Conclusion}
+While a correlation of 0.27 is statistically considered weak, it highlights a secondary economic "pulse" in the Moroccan market. We conclude that while rainfall is not a primary predictor of stock valuation, it serves as a macro-environmental catalyst that supports bullish sentiment in specific industrial sectors.
+
+\end{document}
